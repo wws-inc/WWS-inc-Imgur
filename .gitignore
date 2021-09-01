@@ -1,18 +1,7 @@
 
 *.dll
 *.pdb
-bin/*
-obj/*
 src/core/WWSInc.Imgur/obj/*
 src/core/WWSInc.Imgur/bin/*
 src/tests/Imgur-test/obj/*
 src/tests/Imgur-test/bin/*
-
-
-src/core/WWSInc.Imgur/bin/Debug/*
-src/core/WWSInc.Imgur/bin/Debug/net5.0/ref/*
-src/core/WWSInc.Imgur/obj/Debug/net5.0/*
-src/core/WWSInc.Imgur/obj/Debug/net5.0/ref/WWSInc.Imgur.dll
-src/core/WWSInc.Imgur/bin/Debug/net5.0/ref/WWSInc.Imgur.dll
-src/core/WWSInc.Imgur/bin/Debug/net5.0/WWSInc.Imgur.dll
-src/core/WWSInc.Imgur/obj/Debug/net5.0/WWSInc.Imgur.GeneratedMSBuildEditorConfig.editorconfig
