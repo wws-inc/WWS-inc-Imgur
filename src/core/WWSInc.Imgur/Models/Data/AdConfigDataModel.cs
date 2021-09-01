@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace WWSInc.Imgur.Models
+namespace WWSInc.Imgur.Models.Data
 {
-    public class AdConfigModel
+    public class AdConfigDataModel
     {
         public List<string> SafeFlags { get; set; }
         public List<string> HighRiskFlags { get; set; }

@@ -20,7 +20,6 @@ namespace WWSInc.Imgur.Services
             Request = new HttpRequestMessage();
         }
 
-
         public async Task<Response<T>> GetAsync<T>(HttpRequestMessage request, Uri uri)
         {
             using (var client = new HttpClient())
@@ -28,7 +27,7 @@ namespace WWSInc.Imgur.Services
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(Settings.Accept);
                 client.DefaultRequestHeaders.Add("User-Agent", Settings.UserAgentName);
-                client.DefaultRequestHeaders.Add("Authorization", $"Bearer {Auth.AccessToken}");                
+                client.DefaultRequestHeaders.Add("Authorization", $"Bearer {Auth.AccessToken}");
 
                 foreach (var header in request.Headers)
                 {
@@ -44,7 +43,6 @@ namespace WWSInc.Imgur.Services
 
         public async Task<Response<T>> PostAsync<T>(HttpRequestMessage request, HttpContent httpContent, Uri uri)
         {
-
             using (var client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Accept.Clear();
@@ -58,7 +56,6 @@ namespace WWSInc.Imgur.Services
                     var result = JsonConvert.DeserializeObject<Response<T>>(json);
                     return result;
                 }
-
             }
         }
     }

@@ -2,6 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 using WWSInc.Imgur.Models;
+using WWSInc.Imgur.Models.Data;
 
 namespace WWSInc.Imgur.Services
 {
