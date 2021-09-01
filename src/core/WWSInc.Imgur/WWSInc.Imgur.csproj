@@ -8,9 +8,10 @@
     <PackageProjectUrl>https://github.com/wws-inc/WWS-inc-Imgur</PackageProjectUrl>
     <RepositoryUrl>https://github.com/wws-inc/WWS-inc-Imgur</RepositoryUrl>
     <PackageTags>imgur</PackageTags>
-    <PackageReleaseNotes>First</PackageReleaseNotes>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Description>https://www.waterloowebservices.com</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,13 +20,6 @@
 
   <ItemGroup>
     <Folder Include="License\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="License.txt">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>
