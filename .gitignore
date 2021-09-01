@@ -1,0 +1,5 @@
+
+*.dll
+*.pdb
+src/core/WWSInc.Imgur/bin/*
+src/core/WWSInc.Imgur/obj/*
