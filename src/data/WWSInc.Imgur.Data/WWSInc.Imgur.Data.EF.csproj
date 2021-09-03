@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>WWSInc.Imgur.Data.EF</AssemblyName>
+    <RootNamespace>WWSInc.Imgur.Data.EF</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\WWSInc.Imgur.Core\WWSInc.Imgur.Core.csproj" />
+  </ItemGroup>
+
+</Project>
