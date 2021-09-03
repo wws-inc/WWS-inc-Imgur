@@ -26,10 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ImageData\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="sample-data\album-response.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
