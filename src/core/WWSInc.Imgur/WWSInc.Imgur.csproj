@@ -8,10 +8,13 @@
     <PackageProjectUrl>https://github.com/wws-inc/WWS-inc-Imgur</PackageProjectUrl>
     <RepositoryUrl>https://github.com/wws-inc/WWS-inc-Imgur</RepositoryUrl>
     <PackageTags>imgur</PackageTags>
-    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated AlbumDataModel</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <Description>https://www.waterloowebservices.com</Description>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

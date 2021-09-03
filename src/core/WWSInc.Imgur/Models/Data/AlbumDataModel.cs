@@ -13,7 +13,7 @@ namespace WWSInc.Imgur.Models
         public int? CoverWidth { get; set; }
         [JsonProperty("cover_height")]
         public int? CoverHeight { get; set; }
-        public string Privacy { get; set; }
+        public Privacy Privacy { get; set; }
         public string Layout { get; set; }
         public int Views { get; set; }
         public bool Favorite { get; set; }
