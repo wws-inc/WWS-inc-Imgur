@@ -1,4 +1,4 @@
-﻿namespace WWSInc.Imgur.Services
+﻿namespace WWSInc.Imgur.Core.Services
 {
     public interface IImgurServices : IImageService, IAlbumServices
     {

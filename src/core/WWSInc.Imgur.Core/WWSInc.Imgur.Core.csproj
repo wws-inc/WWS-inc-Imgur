@@ -8,24 +8,24 @@
     <PackageProjectUrl>https://github.com/wws-inc/WWS-inc-Imgur</PackageProjectUrl>
     <RepositoryUrl>https://github.com/wws-inc/WWS-inc-Imgur</RepositoryUrl>
     <PackageTags>imgur</PackageTags>
-    <PackageReleaseNotes>Updated AlbumDataModel</PackageReleaseNotes>
+    <PackageReleaseNotes>Renamed to Core</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <Description>https://www.waterloowebservices.com</Description>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
-    <Version>1.0.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1.0</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>

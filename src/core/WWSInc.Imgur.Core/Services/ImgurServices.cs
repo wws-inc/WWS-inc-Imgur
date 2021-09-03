@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
-using WWSInc.Imgur.Models;
-using WWSInc.Imgur.Models.Data;
+using WWSInc.Imgur.Core.Models;
+using WWSInc.Imgur.Core.Models.Data;
 
 /// <summary>
 /// WWS Inc. Imgur primary service. 
 /// Contains all imgur related specific services.
 /// </summary>
-namespace WWSInc.Imgur.Services
+namespace WWSInc.Imgur.Core.Services
 {
     public class ImgurServices: IImgurServices
     {

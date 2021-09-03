@@ -1,4 +1,4 @@
-﻿namespace WWSInc.Imgur.Models
+﻿namespace WWSInc.Imgur.Core.Models
 {
     public interface IResponseModel
     {

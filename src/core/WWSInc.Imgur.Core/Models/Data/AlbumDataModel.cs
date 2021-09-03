@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
-using WWSInc.Imgur.Models.Data;
+using WWSInc.Imgur.Core.Models.Data;
 
-namespace WWSInc.Imgur.Models
+namespace WWSInc.Imgur.Core.Models
 {
     public class AlbumDataModel : BaseDataModel
     {

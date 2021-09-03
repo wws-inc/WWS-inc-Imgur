@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace WWSInc.Imgur.Models.Data
+namespace WWSInc.Imgur.Core.Models.Data
 {
     public class BaseDataModel 
     {

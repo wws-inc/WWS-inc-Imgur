@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using WWSInc.Imgur.Models;
+using WWSInc.Imgur.Core.Models;
 
-namespace WWSInc.Imgur.Services
+namespace WWSInc.Imgur.Core.Services
 {
     public interface IAlbumServices
     {

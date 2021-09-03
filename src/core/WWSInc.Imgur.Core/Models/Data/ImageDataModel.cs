@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace WWSInc.Imgur.Models.Data
+namespace WWSInc.Imgur.Core.Models.Data
 {
     public class ImageDataModel : BaseDataModel
     {

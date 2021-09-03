@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using WWSInc.Imgur.Models;
+using WWSInc.Imgur.Core.Models;
 
-namespace WWSInc.Imgur.Services
+namespace WWSInc.Imgur.Core.Services
 {
     public class AlbumServices : AImgurService, IAlbumServices
     {

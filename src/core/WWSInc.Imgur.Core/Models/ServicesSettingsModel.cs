@@ -1,6 +1,6 @@
 ﻿using System.Net.Http.Headers;
 
-namespace WWSInc.Imgur.Models
+namespace WWSInc.Imgur.Core.Models
 {
     public class ServicesSettingsModel
     {

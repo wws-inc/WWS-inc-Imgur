@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WWSInc.Imgur.Models
+namespace WWSInc.Imgur.Core.Models
 {
     public class AuthTicketModel
     {        

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace WWSInc.Imgur.Models
+namespace WWSInc.Imgur.Core.Models
 {
     public class Response<T>
     {
