@@ -24,7 +24,6 @@ namespace WWSInc.Imgur.Models.Data
         public string AdUrl { get; set; }
         public int Edited { get; set; }
         public string Name { get; set; }
-        public int Bandwidth { get; set; }
-        
+        public int Bandwidth { get; set; }        
     }
 }
