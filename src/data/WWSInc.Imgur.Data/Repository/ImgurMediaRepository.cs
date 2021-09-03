@@ -14,8 +14,8 @@ namespace WWSInc.Imgur.Data.SqlServer.Repositories
 
         public async void AddUpdateProfileAsync(IProfileModel profile)
         {
-            await _context.Profile.AddAsync(profile);
-            await _context.SaveChangesAsync();
+            //await _context.Profile.AddAsync(profile);
+            //await _context.SaveChangesAsync();
         }       
     }
 }
