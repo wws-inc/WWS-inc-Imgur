@@ -6,15 +6,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Extensions\**" />
+    <Compile Remove="Model\**" />
+    <Compile Remove="Repository\**" />
+    <EmbeddedResource Remove="Extensions\**" />
+    <EmbeddedResource Remove="Model\**" />
+    <EmbeddedResource Remove="Repository\**" />
+    <None Remove="Extensions\**" />
+    <None Remove="Model\**" />
+    <None Remove="Repository\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.9" />
     <PackageReference Include="WWSInc.Imgur" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Extensions\" />
-    <Folder Include="Model\" />
-    <Folder Include="Repository\" />
+    <ProjectReference Include="..\WWSInc.Imgur.Data\WWSInc.Imgur.Data.EF.csproj" />
   </ItemGroup>
 
 </Project>

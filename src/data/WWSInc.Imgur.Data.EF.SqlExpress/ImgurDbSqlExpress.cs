@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WWSInc.Imgur.Data.EF;
-using WWSInc.Imgur.Data.EF.Model;
 
 namespace WWSInc.Imgur.Data.SqlServer
 {
