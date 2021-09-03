@@ -8,11 +8,11 @@ namespace WWSInc.Imgur.Models
     {
         public string Cover { get; set; }
         [JsonProperty("cover_edited")]
-        public string CoverEdited { get; set; }
+        public string? CoverEdited { get; set; }
         [JsonProperty("cover_width")]
-        public int CoverWidth { get; set; }
+        public int? CoverWidth { get; set; }
         [JsonProperty("cover_height")]
-        public int CoverHeight { get; set; }
+        public int? CoverHeight { get; set; }
         public string Privacy { get; set; }
         public string Layout { get; set; }
         public int Views { get; set; }

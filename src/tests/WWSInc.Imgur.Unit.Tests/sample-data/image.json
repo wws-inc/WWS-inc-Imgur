@@ -1,0 +1,44 @@
+{
+    "data": {
+        "id": "UflWTHU",
+        "title": "Post Image title",
+        "description": "Img Description 1",
+        "datetime": 1628884919,
+        "type": "image\/jpeg",
+        "animated": false,
+        "width": 4928,
+        "height": 3280,
+        "size": 2180564,
+        "views": 310,
+        "bandwidth": 675974840,
+        "vote": null,
+        "favorite": false,
+        "nsfw": false,
+        "section": null,
+        "account_url": null,
+        "account_id": 151342080,
+        "is_ad": false,
+        "in_most_viral": false,
+        "has_sound": false,
+        "tags": [],
+        "ad_type": 0,
+        "ad_url": "",
+        "edited": "0",
+        "in_gallery": true,
+        "deletehash": "ZuDdFk6Sw8Ax5qc",
+        "name": "Nikon-Df-Sample-Image-1.jpg",
+        "link": "https:\/\/i.imgur.com\/UflWTHU.jpg",
+        "ad_config": {
+            "safeFlags": [
+                "in_gallery",
+                "sixth_mod_safe"
+            ],
+            "highRiskFlags": [],
+            "unsafeFlags": [],
+            "wallUnsafeFlags": [],
+            "showsAds": true
+        }
+    },
+    "success": true,
+    "status": 200
+}

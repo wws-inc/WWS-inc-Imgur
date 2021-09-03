@@ -1,0 +1,37 @@
+{
+  "data": {
+    "id": "UN9abNy",
+    "title": "Album title - 637659648000000000",
+    "description": "Album Description goes here - 637659648000000000",
+    "datetime": 1630432679,
+    "cover": null,
+    "cover_edited": null,
+    "cover_width": null,
+    "cover_height": null,
+    "account_url": "waterloowebservices",
+    "account_id": 151342080,
+    "privacy": "hidden",
+    "layout": "blog",
+    "views": 0,
+    "link": "https:\/\/imgur.com\/a\/UN9abNy",
+    "favorite": false,
+    "nsfw": false,
+    "section": null,
+    "images_count": 0,
+    "in_gallery": false,
+    "is_ad": false,
+    "include_album_ads": false,
+    "is_album": true,
+    "deletehash": "NfDgm62hz1POd8p",
+    "images": [],
+    "ad_config": {
+      "safeFlags": [ "not_in_gallery", "share" ],
+      "highRiskFlags": [],
+      "unsafeFlags": [ "sixth_mod_unsafe", "updated_date" ],
+      "wallUnsafeFlags": [],
+      "showsAds": false
+    }
+  },
+  "success": true,
+  "status": 200
+}

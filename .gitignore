@@ -7,3 +7,7 @@ src/tests/Imgur-test/obj/*
 src/tests/Imgur-test/bin/*
 src/.vs/wws-Inc-imgur/v16/.suo
 src/.vs/wws-Inc-imgur/DesignTimeBuild/.dtbcache.v2
+*.testlog
+*.manifest
+src/tests/WWSInc.Imgur.Unit.Tests/obj/*
+src/tests/WWSInc.Imgur.Unit.Tests/bin/*
