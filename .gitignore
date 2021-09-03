@@ -13,3 +13,9 @@ src/tests/WWSInc.Imgur.Unit.Tests/obj/*
 src/tests/WWSInc.Imgur.Unit.Tests/bin/*
 src/core/WWSInc.Imgur.Core/bin/*
 src/core/WWSInc.Imgur.Core/obj/*
+src/data/WWSInc.Imgur.Data/obj/Debug/*
+src/data/WWSInc.Imgur.Data.EF.SqlExpress/obj/*
+src/data/WWSInc.Imgur.Data.EF.SqlExpress/bin/*
+src/data/WWSInc.Imgur.Data.SqlServer/obj/*
+src/data/WWSInc.Imgur.Data.SqlServer/bin/Debug/net5.0/*
+src/data/WWSInc.Imgur.Data/obj/*
