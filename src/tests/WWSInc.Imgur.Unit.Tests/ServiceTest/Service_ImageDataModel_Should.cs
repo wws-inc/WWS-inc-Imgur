@@ -1,6 +1,6 @@
 ﻿using Moq;
-using WWSInc.Imgur.Models.Data;
-using WWSInc.Imgur.Services;
+using WWSInc.Imgur.Core.Models.Data;
+using WWSInc.Imgur.Core.Services;
 using Xunit;
 
 namespace Imgur_test.ServiceTest

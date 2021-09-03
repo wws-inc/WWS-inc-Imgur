@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using WWSInc.Imgur.Models;
+using WWSInc.Imgur.Core.Models;
 
 namespace Imgur_test.ServiceTest
 {
@@ -7,7 +7,6 @@ namespace Imgur_test.ServiceTest
     {
         public string JsonFileName { get; set;}
         public string JsonPathDir { get; set; }
-
         public string JsonText { get; set; }
 
         public BaseServiceTest(string jsonPathDir, string jsonFileName)
@@ -19,7 +18,7 @@ namespace Imgur_test.ServiceTest
 
         public BaseServiceTest(string jsonPathDir)
         {
-            JsonPathDir = jsonPathDir;            
+            JsonPathDir = jsonPathDir;
         }
 
         public Response<T> GetResponse(string jsonFileName)
@@ -28,7 +27,6 @@ namespace Imgur_test.ServiceTest
             var result = JsonConvert.DeserializeObject<Response<T>>(JsonText);
             return result;
         }
-
 
         public Response<T> GetResponse()
         {

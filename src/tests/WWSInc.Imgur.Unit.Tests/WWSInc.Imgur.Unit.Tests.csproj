@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\core\WWSInc.Imgur\WWSInc.Imgur.csproj" />
+    <ProjectReference Include="..\..\core\WWSInc.Imgur.Core\WWSInc.Imgur.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

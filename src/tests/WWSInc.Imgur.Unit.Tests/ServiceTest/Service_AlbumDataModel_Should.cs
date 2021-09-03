@@ -1,7 +1,7 @@
 ﻿using Moq;
 using System.Collections.Generic;
-using WWSInc.Imgur.Models;
-using WWSInc.Imgur.Services;
+using WWSInc.Imgur.Core.Models;
+using WWSInc.Imgur.Core.Services;
 using Xunit;
 
 namespace Imgur_test.ServiceTest
